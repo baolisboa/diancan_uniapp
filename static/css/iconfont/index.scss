@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "course-iconfont"; /* Project id 4544429 */
+	src:
+		url("https://at.alicdn.com/t/c/font_4544429_8wrkkv7fw6e.woff2?t=1715843974787")
+			format("woff2"),
+		url("https://at.alicdn.com/t/c/font_4544429_8wrkkv7fw6e.woff?t=1715843974787")
+			format("woff"),
+		url("https://at.alicdn.com/t/c/font_4544429_8wrkkv7fw6e.ttf?t=1715843974787")
+			format("truetype");
+}
+
+[class*="course-icon-"] {
+	font-family: "course-iconfont";
+	font-size: inherit;
+	font-style: normal;
+	line-height: 1;
+}
+
+.course-icon-play:before {
+	content: "\e6ef";
+}
+
+.course-icon-source:before {
+	content: "\e6ee";
+}
+
+.course-icon-quotation:before {
+	content: "\e727";
+}
+
+.course-icon-lock:before {
+	content: "\e728";
+}
