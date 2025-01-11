@@ -1,6 +1,6 @@
 export const proxy = {
 	"/dev/": {
-		target: "http://127.0.0.1:8001",
+		target: "http://165.227.151.90:8001",
 		changeOrigin: true,
 		rewrite: (path: string) => path.replace(/^\/dev/, ""),
 	},

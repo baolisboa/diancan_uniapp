@@ -159,12 +159,13 @@ const router = {
 		} = options || {};
 
 // 新加功能，在开发环境中npm run dev 时，可以通过url参数直接跳转到指定页面
-// if (config.isDev) {
-// 	// 在开发环境下，直接跳转到主页或其他页面
-// 	if (path === this.pages.login) {
-// 		path = this.pages.home;
-// 	}
-// }
+if (config.isDev) {
+	// 在开发环境下，直接跳转到主页或其他页面
+	if (path === this.pages.login) {
+		path = this.pages.home;
+		isGuard = false; // 确保不触发守卫逻辑
+	}
+}
 
 		if (query) {
 			let arr = [];

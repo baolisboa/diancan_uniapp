@@ -37,8 +37,6 @@ export const config = {
 	// 当前环境
 	...(isDev ? dev : prod),
 
-	// 是否开放模式
-	isDev: isDev,
 };
 
 export * from "./proxy";
