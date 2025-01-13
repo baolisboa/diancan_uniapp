@@ -24,6 +24,7 @@
 		"@types/md5": "^2.3.2",
 		"@types/node": "^20.11.26",
 		"@vue/tsconfig": "^0.5.1",
+		"cross-env": "^7.0.3",
 		"typescript": "^5.2.2",
 		"vite": "^5.1.6"
 	},
